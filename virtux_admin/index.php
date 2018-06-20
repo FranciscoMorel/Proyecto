@@ -35,6 +35,7 @@
 		</div>
 	</div>
 <?php include 'extend/footer.php'; ?>
+	//xupamela la corneta
 <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
 
 <script src="js/app.js"></script>

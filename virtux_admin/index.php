@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	//prueba
 	<meta charset="UTF-8">
 	<title>Ecommerce</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">

@@ -1,3 +1,4 @@
+
 <?php include '../conexion/conexion.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +15,7 @@
       		display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background-image: url("../img/fondo.png");
+    background-image: url("../img/capa1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -24,7 +25,7 @@
 <body class="bg-light" >
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-info">
-		<a href="index.php" class="navbar-brand"><img src="../img/ellegal.png" height="80"></img></a>
+		<a href="index.php" class="navbar-brand"><img src="../img/ellegal.png" height="50"></img></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
 			<span class="navbar-toggler-icon" ></span>
 		</button>
@@ -48,7 +49,7 @@
 			
 				<form class="form-inline my-2 my-lg-0" role="form" method="get" action="resultado.php">
             		<div >
-              		<input type="text" placeholder="Ingrese su busqueda"  class="form-control" name="palabra"/>
+              		<input type="text"  placeholder="Ingrese su busqueda"  class="form-control " name="palabra"/>
               	</div>
             		<button type="submit" action="resultado.php"  class="btn btn-success mr-5 ml-1">Buscar</button>
  				</form>

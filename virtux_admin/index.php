@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
 	<meta charset="UTF-8">
 	<title>Ecommerce</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -27,10 +26,10 @@
 		<div class="well">
 			<h1 class="bg-info text-white text-center" >Inicio de sesión</h1>
 			<div class="form-group">
-				<input type="email" id="correo"  class="form-control form-control-lg" placeholder="Correo">
+				<input type="email" id="correo"  class="form-control form-control-lg" placeholder="Correo" requiered>
 			</div>
 			<div class="form-group" >
-				<input type="password" id="pass" class="form-control form-control-lg" placeholder="Contraseña" >
+				<input type="password" id="pass" class="form-control form-control-lg" placeholder="Contraseña" required >
 			</div>
 			<button type="submit" class="btn btn-primary" id="login">ENTRAR</button>
 		</div>

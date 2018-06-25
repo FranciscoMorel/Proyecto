@@ -6,7 +6,7 @@ include '../extend/header.php';
 <body body background="../img/fondo.png">
 
 <div class="container" style="margin-top: 1%;">
-  <h2 class="bg-danger text-white text-center ">Productos encontrados</h2>
+  <h2 class="bg-info text-black text-center ">Productos encontrados</h2>
   <div class="row">
 
 
@@ -19,10 +19,10 @@ include '../extend/header.php';
        $sel ->execute();
        $contador= $sel->rowcount();
        if($contador == 0){ ?>
-        <h4 class="bg-danger text-white text-center"> <?php echo "No se han contrado relaciones de productos"; ?></h4>
+        <h4 class="bg-info text-black text-center"> <?php echo "No se han contrado relaciones de productos"; ?></h4>
         <?php
         }else {  ?>
-          <h4 class="bg-danger text-white text-center"><?php echo "Se han encontrado ".$contador." productos" ?></h4>
+          <h4 class="bg-info text-black text-center"><?php echo "Se han encontrado ".$contador." productos" ?></h4>
           <div class="row col-sm-12 "  >
 
           <?php
@@ -35,7 +35,7 @@ include '../extend/header.php';
 	  <td>
     	 <div class="col-sm-12 col-md-6 col-lg-3">
     	 	<div class="card" style="margin-top: 5%";> 
-    	 	    <img class="card-img-top" src="../../virtux/admin/<?php echo$f['foto'] ?>" width="200" height="200">
+    	 	    <img class="card-img-top" src="../../virtux_admin/admin/<?php echo$f['foto'] ?>" width="200" height="200">
     	 	    <div class="card-body">
     	 		   <h4 class="card-title"><?php echo $f['producto'] ?> </h4>
     	 		   <p class="card-text"><?php echo "$".number_format($f['precio']) ?></p>
